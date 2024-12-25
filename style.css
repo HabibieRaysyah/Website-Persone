@@ -72,8 +72,6 @@ header {
 } */
 
 
-/* Base styles for mobile devices */
-
 
 header {
   display: flex;
@@ -128,7 +126,6 @@ header {
   color: red;
 }
 
-/* Responsive Styles */
 @media (min-width: 768px) {
   /* Show navigation on larger screens */
 
@@ -150,7 +147,6 @@ header {
   }
 }
 
-/* Mobile navigation toggle */
 @media (max-width: 767px) {
   
   .nav {

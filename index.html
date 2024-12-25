@@ -22,32 +22,32 @@
   <body>
     <header>
       <h1>
-        <a href="" class="logo">YO<span class="red">!</span></a>
+        <a href="#" class="logo">YO<span class="red">!</span></a>
       </h1>
+      <div class="menu-icon">
+        <i class="ph-light ph-list"></i>
+      </div>
       <nav class="nav">
         <ul class="nav_ul">
-          <li class="nav_ul_li ">
+          <li class="nav_ul_li">
             <a href="#" class="nav_ul_li_items">Home</a>
           </li>
-          <li class="nav_ul_li ">
+          <li class="nav_ul_li">
             <a href="#About" class="nav_ul_li_items">About</a>
           </li>
-          <li class="nav_ul_li ">
+          <li class="nav_ul_li">
             <a href="#achivment" class="nav_ul_li_items">Achivment</a>
           </li>
-          <li class="nav_ul_li ">
-            <a href="" class="nav_ul_li_items">Contact</a>
+          <li class="nav_ul_li">
+            <a href="#contact" class="nav_ul_li_items">Contact</a>
           </li>
-        </li>
-        <li class="nav_ul_li ">
-          <a href="artikel.html" class="nav_ul_li_items">Artikel</a>
-        </li>
-          <div class="menu-icon">
-          <i class="ph-light ph-list"></i>
-        </div>
+          <li class="nav_ul_li">
+            <a href="artikel.html" class="nav_ul_li_items">Artikel</a>
+          </li>
         </ul>
       </nav>
     </header>
+
     <main>
       <div class="kanan">
         <div class="judul">
@@ -63,13 +63,12 @@
           </p>
           <div class="medsos">
             <div class="medsos">
-              <i class="ri-linkedin-box-fill"></i>
-              <i class="ri-instagram-line"></i>
-              <i class="ri-whatsapp-line"></i>
+              <a href="https://www.linkedin.com/in/muhamad-habibie-raysyah-toha-a74ab3328/"><i class="ri-linkedin-box-fill"></i></a>
+              <a href="https://www.instagram.com/m.habibieresya/"><i class="ri-instagram-line"></i></a>
+              <a href="https://wa.me/6289630707282"><i class="ri-whatsapp-line"></i></a>
             </div>
           </div>
           <a href="image/CV.png" download="" class="button">Download CV</a>
-          
         </div>
         <div>
           <img src="image/IMG_0296.JPG" alt="" class="profile" />
@@ -94,15 +93,65 @@
       <div class="achievement" id="achivment">
         <h1>SERTIFIKAT</h1>
         <div class="display-container">
-          <button class="but but-right " onclick="plusDivs(-1)">&#10094;</button>
+          <button class="but but-right" onclick="plusDivs(-1)">&#10094;</button>
 
-          <img class="mySlides imge" src="sertifikat/Dicoding_Muhamad Habibie Raysyah Toha_0087326488.png">
-          <img class="mySlides imge" src="sertifikat/5b6a668d-5273-43e1-8e56-a28f7e19b684 (1).jpg">
-          <img class="mySlides imge" src="sertifikat/K3.jpg">
-          <img class="mySlides imge" src="sertifikat/M. Habibie Raysyah Toha.jpg">
-          
+          <img
+            class="mySlides imge"
+            src="sertifikat/Dicoding_Muhamad Habibie Raysyah Toha_0087326488.png"
+          />
+          <img
+            class="mySlides imge"
+            src="sertifikat/5b6a668d-5273-43e1-8e56-a28f7e19b684 (1).jpg"
+          />
+          <img class="mySlides imge" src="sertifikat/K3.jpg" />
+          <img
+            class="mySlides imge"
+            src="sertifikat/M. Habibie Raysyah Toha.jpg"
+          />
+
           <button class="but but-left" onclick="plusDivs(1)">&#10095;</button>
         </div>
+      </div>
+
+      <div class="contact" id="contact"> 
+        <section id="contact">
+          <div class="form" >
+            <h1>Contact <span>Me</span></h1>
+            <form action="#home">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter Your Name"
+                required=""
+              />
+              <br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Your Email"
+                required=""
+              /><br />
+              <input
+                type="number"
+                name="number"
+                id="number"
+                placeholder="Enter Your Phone No."
+                required=""
+              /><br />
+              <textarea
+                name="msg"
+                id="msg"
+                rows="6"
+                cols="20"
+                placeholder="Enter your Message"
+              ></textarea
+              ><br />
+              <button class="form_btn" type="submit">Sumbit</button>
+            </form>
+          </div>
+        </section>
       </div>
     </main>
     <footer>
@@ -124,10 +173,10 @@
       </div>
       <div>
         <div>
-        <ul>
-          <li>Instagram : @M.Habibieresya</li>
-          <li>Youtube : @Osca2008</li>
-        </ul>
+          <ul>
+            <li>Instagram : @M.Habibieresya</li>
+            <li>Youtube : @Osca2008</li>
+          </ul>
         </div>
       </div>
     </footer>
